@@ -1,0 +1,224 @@
+.calculator_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 350px;
+    box-shadow: 0px 0px 15px 0px ;
+    padding: 20px;
+    backdrop-filter:blur(1px);
+    border-radius: 20px;
+    position: relative;
+    left: 37%;
+    bottom: 700px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+
+.buttons{
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    box-shadow: 0px -5px 1px 0px rgb(236, 124, 4);
+    transition:transform 0.3s ease-in;
+    border: 0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.buttons:hover{
+    background-color: rgb(93, 228, 66);
+    transform: scale(0.9); 
+   
+    
+}
+.buttons1{
+  
+    height: 70px;
+    width: 210px;
+    box-shadow: 5px 0px 0px 0px rgb(236, 124, 4);
+    border-radius: 20px;
+    transition:transform 0.3s ease-in;
+    border: 0px;
+    color: rgb(13, 14, 14);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.buttons1:hover{
+    transform: scale(0.9);
+    background-color: rgb(145, 1, 1);
+    color: aliceblue;
+}
+
+.buttons10{
+    border-radius: 20px;
+    width: 70px;
+    box-shadow: -5px 0px 1px 0px  rgb(236, 124, 4) ;
+    transition:transform 0.3s ease-in;
+    border: 0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(145, 40, 251);
+    color: black;
+}
+
+.buttons10:hover{
+    transform: scale(0.9);
+    
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 0px 1px rgb(139, 139, 138) ;
+    height: 60px;
+    width: 290px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    
+
+
+}
+.video2{
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+   
+}
+body{
+    margin: 0px;
+}
+
+#far{
+    margin: 0px;
+    padding: 0px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#away{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons4{
+    background-color: rgb(119, 248, 248);
+    color: rgb(20, 19, 19);
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    box-shadow: 0px -5px 1px 0px  rgb(236, 124, 4);
+    transition:transform 0.3s ease-in;
+    border: 0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.buttons4:hover{
+     transform: scale(0.9);
+}
+
+.buttons5{
+    background-color: rgb(204, 5, 15);
+    color: rgb(244, 234, 234);
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    box-shadow: 0px -5px 1px 0px  rgb(236, 124, 4);
+    transition:transform 0.3s ease-in;
+    border: 0px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.buttons5:hover{
+    transform: scale(0.9);
+}
+.buttons6{
+    background-color: rgb(231, 239, 12);
+    color: rgb(19, 18, 18);
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    box-shadow: 0px -5px 1px 0px  rgb(236, 124, 4);
+    transition:transform 0.3s ease-in;
+    border: 0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.buttons6:hover{
+     transform: scale(0.9);
+}
+.buttons7{
+    background-color: rgb(27, 6, 218);
+    color: rgb(232, 225, 225);
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    box-shadow: 0px -5px 1px 0px  rgb(236, 124, 4);
+    transition:transform 0.3s ease-in;
+    border: 0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.buttons7:hover{
+     transform: scale(0.9);
+}
+.buttons9{
+    background-color: rgb(209, 8, 132);
+    color: rgb(228, 224, 224);
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    box-shadow: 0px -5px 1px 0px  rgb(236, 124, 4);
+    transition:transform 0.3s ease-in;
+    border: 0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.buttons9:hover{
+     transform: scale(0.9);
+}
+.buttons8{
+    background-color: rgb(72, 5, 116);
+    color: rgb(238, 230, 230);
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    box-shadow: 0px -5px 1px 0px  rgb(236, 124, 4);
+    transition:transform 0.3s ease-in;
+    border: 0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+} 
+.buttons8:hover{
+     transform: scale(0.9);
+}
